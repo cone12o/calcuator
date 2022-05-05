@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+  }
+
+  .calculator {
+    display: inline-block;
+    width: 300px;
+    margin: 5% 0 0 50%;
+    
+    font-family: 'Open Sans', Helvetica Neue, Arial;
+    background-color: #ffffff;
+    box-shadow: 0 0 40px rgba(0,0,0,0.4);
+    transform: translateX(-50%);
+  }
+  .screen0 {
+    min-height: 35px;
+    padding: 10px 20px 0px 10px;
+    
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: right;
+    
+    background-color:red;
+    border-bottom: black solid 3px;
+  }
+  .screen1 {
+    min-height: 61px;
+    padding: 20px;
+    
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: right;
+    
+    background-color: red;
+  }
+  .row:before, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .button {
+    display: inline-block;
+    float: left;
+    padding: 30px;
+    width: 75px;
+    
+    color: #444;
+    text-align: center;
+    
+    cursor: pointer;
+  }
+  .button-number {
+  
+}
+
+.button-symbol {
+  font-weight: bold;
+  
+  background-color: #eeeeee;
+}
+
+.button--selected {
+  background-color: #A8BAFF;  
+}
